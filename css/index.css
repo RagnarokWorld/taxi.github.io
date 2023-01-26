@@ -1,0 +1,333 @@
+a {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: WangZhiShuFaZiTi;
+    src: url(../imges/WangZhiShuFaZiTi-2.ttf);
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+#particles-js {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+:target::before {
+    content: "";
+    display: block;
+    height: 100px;
+    margin: -100px 0 0 0;
+}
+:target {
+    scroll-margin-top: 55px;
+}
+.hdd {
+    width: 100%;
+    background-color: rgb(247, 243, 243);
+    position: fixed;
+    z-index: 999;
+}
+.headdiv {
+    width: 90%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+header nav a {
+    margin-left: 10px;
+    font-family: cursive;
+    font-size: 20px;
+}
+header nav a:last-child {
+    margin: 0 30px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    background: rgb(211, 211, 212);
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+}
+section {
+    width: 960px;
+    position: relative;
+    padding: 0.1px;
+    height: 500px;
+    margin: 0 auto 2%;
+}
+.sec1 {
+    padding-top: 13%;
+    height: 400px;
+}
+.sec1 div {
+    width: 200px;
+    text-align: center;
+}
+.sec1 div:nth-child(2) {
+    width: 400px;
+    margin-left: 5%;
+}
+.sec1 div p:nth-child(odd) {
+    font: 30px/.5 WangZhiShuFaZiTi;
+    text-shadow: 5px 5px 10px rgb(95, 95, 95);
+    margin-bottom: 35px;
+}
+.sec1 div p:nth-child(even) {
+    font-size: 20px;
+    margin-top: -15px;
+}
+.sec1 div:nth-child(1) p:nth-child(1) {
+    font-size: 55px;
+}
+.sec1 aside {
+    position: absolute;
+    width: 400px;
+    right: 0px;
+    top: 130px;
+    text-align: center;
+    font-size: 30px;
+}
+.sec1 aside div {
+    width: 400px;
+    height: 360px;
+    background: url(../imges/AdobeStock_409445019.jpeg) -230px -40px no-repeat;
+    background-size: contain;
+    background-size: 220%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.sec2 {
+    height: 120px;
+    text-align: center;
+}
+.illustrate {
+    position: absolute;
+    right: 0px;
+    width: 400px;
+}
+.vhr,
+.hrillust {
+    display: inline-block;
+    width: 33%;
+    height: 10px;
+    margin: 10px 0;
+}
+.vhr {
+    border-bottom: 2px solid #000;
+}
+.dirver {
+    display: block;
+    margin: 10px 0 30px;
+    width: 400px;
+    height: 60px;
+    background-color: #000;
+    font-size: 1.2em;
+    color: aliceblue;
+    line-height: 60px;
+    border-radius: 30px;
+}
+.sec3 {
+    background: url(../imges/AdobeStock_233389561.jpeg) 100px 0 no-repeat;
+    background-size: cover;
+}
+.sec4 {
+    background: url(../imges/AdobeStock_374159898.jpeg) -100px 0 no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+h1 {
+    font-family: cursive;
+    font-size: 50px;
+    margin: 5% 10% 3%;
+    text-shadow: 5px 5px 10px rgb(77, 77, 77);
+}
+.sec3 img {
+    width: 55%;
+}
+.sec3div aside {
+    position: absolute;
+    right: 0;
+    top: 15%;
+    color: rgb(108, 107, 107);
+    width: 35%;
+    line-height: 33px;
+    font-size: 18px;
+}
+.sec4div p {
+    width: 30%;
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 16px;
+    line-height: 35px;
+}
+em {
+    color: blue;
+    font-size: 30px;
+    margin: 0 10px;
+}
+.sec4div p strong {
+    font-family: cursive;
+    font-size: 20px;
+}
+.sec4 aside {
+    display: inline-block;
+    position: absolute;
+    width: 60%;
+    top: 3%;
+    right: 0;
+}
+.sec4 aside img {
+    width: 95%;
+    border: 1px solid rgb(132, 132, 132);
+}
+.sec5 {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    animation: AI-Central 30s linear infinite;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+    perspective: 500px;
+    overflow: hidden;
+}
+.sec5:target {
+    scroll-margin-top: 10px;
+}
+.sec5 h1 {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    text-shadow: -5px 5px 15px rgb(255, 255, 255);
+}
+.sec5bgci1ill {
+    position: absolute;
+    top: 40%;
+    transform: translate(0, -40%);
+    right: 10%;
+    width: 230px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    transform-style: preserve-3d;
+    animation: ip-pbx 30s linear infinite;
+    perspective: 500px;
+}
+.sec5bgci1ill .voip {
+    height: 350px;
+    margin: 0;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    perspective: 500px;
+    text-shadow: 5px 5px 10px #000;
+}
+@keyframes AI-Central {
+    0% {
+        background: url(../imges/AdobeStock_315778380.jpeg) 0 100px/cover no-repeat;
+    }
+
+    30% {
+        background: url(../imges/AdobeStock_315778380.jpeg) 0 100px/cover no-repeat;
+        background-size: cover;
+    }
+
+    35% {
+        background: url(../imges/AdobeStock_382578916.jpeg) 0 100px/cover no-repeat;
+        background-size: cover;
+    }
+
+    65% {
+        background: url(../imges/AdobeStock_382578916.jpeg) 0 100px/cover no-repeat;
+        background-size: cover;
+    }
+
+    70% {
+        background: url(../imges/AdobeStock_500574027.jpeg) 0px 100px/cover no-repeat;
+        background-size: cover;
+    }
+
+    95% {
+        background: url(../imges/AdobeStock_500574027.jpeg) 0px 100px/cover no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        background: url(../imges/AdobeStock_315778380.jpeg) 0 100px/cover no-repeat;
+    }
+}
+@keyframes ip-pbx {
+    0% {
+        transform: rotateX(90deg);
+        opacity: 0;
+    }
+
+    5% {
+        transform: rotateX(0deg);
+        opacity: 1;
+    }
+
+    65% {
+        transform: rotateX(0deg);
+        opacity: 1;
+    }
+
+    70% {
+        transform: translate(300%, 0);
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+.sec6 {
+    background-color: rgb(226, 240, 240);
+
+}
+.sec6 ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;
+}
+.sec6 ul li {
+    background: rgb(255, 255, 255);
+    width: 150px;
+    padding-top: 30px;
+    line-height: 100px;
+}
+footer {
+    height: 80px;
+    background-color: rgb(155, 154, 154);
+    text-align: center;
+    padding: 5px;
+    position: relative;
+}
+footer ul {
+    line-height: 25px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+}
+footer .fblink:hover {
+    display: inline-block;
+    border-radius: 3px;
+    height: 22px;
+    background-color: #fff;
+    color: rgb(76, 76, 234);
+}

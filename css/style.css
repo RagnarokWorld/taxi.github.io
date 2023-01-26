@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot');
+  src:  url('../fonts/icomoon.eot') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  /* line-height: 1; */
+  
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-AdobeStock_439267136:before {
+  content: "\e902";
+  font-size: 5rem;
+}
+.icon-AdobeStock_444033844:before {
+  content: "\e905";
+  font-size: 5rem;
+}
+.icon-AdobeStock_457357659:before {
+  content: "\e90b";
+  font-size: 5rem;
+}
+.icon-AdobeStock_467393546:before {
+  content: "\e90c";
+  font-size: 5rem;
+}
+.icon-AdobeStock_468339729:before {
+  content: "\e913";
+  font-size: 5rem;
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-phone-hang-up:before {
+  content: "\e943";
+}
+.icon-mail4:before {
+  content: "\ea86";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+  display: inline-block;
+  font-size: 1.5rem;
+}
